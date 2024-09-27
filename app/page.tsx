@@ -1,3 +1,4 @@
+import Experience from "@/components/Experience";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import { FloatingNav } from "@/components/ui/FloatingNav";
@@ -14,7 +15,8 @@ export default function Home() {
           ]}
         />
         <Hero />
-        <Grid />
+        {/* <Grid /> */}
+        <Experience />
         {/* https://www.youtube.com/watch?v=FTH6Dn3AyIQ&t=411s&ab_channel=JavaScriptMastery @ 38:37 */}
       </div>
     </main>
