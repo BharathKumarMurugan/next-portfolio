@@ -6,12 +6,43 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
 ];
 
+export const experienceContent = {
+  techm: [
+    "Lead the design, development, and maintenance of scalable web applications.",
+    "Collaborate with a UK-based team to understand project requirements and deliver high-quality software solutions.",
+    "Take ownership of project design and implementation, leading the development of new features and system improvements.",
+    "Conduct comprehensive code reviews to ensure adherence to coding standards, best practices, and security guidelines.",
+    "Identify and resolve performance bottlenecks and bugs, ensuring high performance and responsiveness of applications.",
+    "Create and maintain detailed documentation for code, APIs, and technical processes.",
+    "Mentor and guide junior developers.",
+    "Conducted vulnerability assessments on client microservices, improving security by mitigating critical vulnerabilities in npm packages.",
+  ],
+  photon: [
+    "Developed reusable React components for interactive and dynamic frontends, adhering to best practices.",
+    "Worked closely with cross-functional teams to ensure seamless integration of front-end components with backend APIs.",
+    "Conducted code reviews, provided technical design input, and trained junior developers to maintain code quality."
+  ],
+  mindtree: [
+    "Developed and managed automated cloud infrastructure using Terraform, Docker, and Kubernetes.",
+    "Implemented cloud automation, reducing annual expenses by $1 million and ensuring compliance with FedRAMP guidelines.",
+    "Developed reusable UI components for internal project tracker applications and optimized performance."
+  ],
+  dxc: [
+    "Developed an AWS serverless web application, providing real-time cloud usage insights.",
+    "Automated cloud cost optimization processes, reducing resource utilization by 10%."
+  ],
+  movate: [
+    "Developed a web application integrating CI/CD tools with cloud services.",
+    "Designed an e-learning portal, increasing user engagement by 75% through an optimized UI/UX approach."
+  ],
+};
+
 export const skillBadgeList = {
   techMItems: ["Team Lead", "ReactJS", "NodeJS", "Next.JS", "AWS", "Docker", "Jest", "PostgreSQL", "Food chain"],
   photonItems: ["ReactJS", "NodeJS", "Azure Pipeline", "eComm"],
-  mindtreeItems: ["Cloud Infra", "DevOps", "Cloud Automation", "ReactJS", "Python", "Terraform", "AWS", "Docker", "Kubernetes"],
-  dxcItems: ["DevOps", "Cloud Automation", "HTML/CSS/JS", "NodeJS", "Python", "Docker", "Kubernetes", "Jenkins", "AWS", "AWS Serverless"],
-  movateItems: ["DevOps", "Cloud Automation", "Photoshop", "HTML/CSS/JS", "NodeJS", "AWS", "Python", "Docker", "Kuberntes"],
+  mindtreeItems: ["Cloud Infra", "DevOps", "Cloud Automation", "ReactJS", "Python", "Terraform", "AWS", "Docker", "Kubernetes", "MySQL"],
+  dxcItems: ["DevOps", "Cloud Automation", "HTML/CSS/JS", "NodeJS", "Python", "Docker", "Kubernetes", "Jenkins", "AWS", "AWS Serverless", "RESTful APIs"],
+  movateItems: ["DevOps", "Cloud Automation", "Photoshop", "HTML/CSS/JS", "NodeJS", "AWS", "Python", "Docker", "Kuberntes", "Jenkins", "RESTful APIs"],
 };
 
 export const skillSectionList = [

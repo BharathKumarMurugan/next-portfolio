@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
@@ -15,6 +16,7 @@ export default function Home() {
         />
         <Hero />
         {/* <Grid /> */}
+        <About />
         <Experience />
         {/* https://www.youtube.com/watch?v=FTH6Dn3AyIQ&t=411s&ab_channel=JavaScriptMastery @ 38:37 */}
       </div>
