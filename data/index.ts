@@ -6,6 +6,76 @@ export const navItems = [
   { name: "Contact", link: "#contact" },
 ];
 
+export const aboutFlashCardContent = [
+  {
+    quote:
+      "Ever since I was a teenager, software development and teaching has been my passion and it carried me through my education. Programming is a never-ending puzzle that I am passionately engaged. I believe in the power of programming to transform and improve the lives of people around the world.",
+    name: "",
+    title: "How I became a web developer?",
+  },
+  {
+    quote: "Experienced Full Stack Developer with 8 years of expertise in developing and maintaining high-quality web applications.",
+    name: "",
+    title: "What I am right now?",
+  },
+  {
+    quote:
+      "Expertised in ReactJS and Node.js with strong experience in RESTful APIs. Skilled in few DevOps tools. Leading a team and mentoring laterals.",
+    name: "",
+    title: "What are my specializations?",
+  },
+  {
+    quote: "I like staying fit and healthy, reading productivity books, star gazing, playing badminton, painting, and watching sci-fi movies.",
+    name: "",
+    title: "What I do when I get bored?",
+  },
+];
+
+export const testimonialsContent = [
+  {
+    id: 1,
+    name: "John Doe",
+    designation: "Software Engineer",
+    image:
+      "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
+  },
+  {
+    id: 2,
+    name: "Robert Johnson",
+    designation: "Product Manager",
+    image:
+      "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+  },
+  {
+    id: 3,
+    name: "Jane Smith",
+    designation: "Data Scientist",
+    image:
+      "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+  },
+  {
+    id: 4,
+    name: "Emily Davis",
+    designation: "UX Designer",
+    image:
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+  },
+  {
+    id: 5,
+    name: "Tyler Durden",
+    designation: "Soap Developer",
+    image:
+      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
+  },
+  {
+    id: 6,
+    name: "Dora",
+    designation: "The Explorer",
+    image:
+      "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3534&q=80",
+  },
+];
+
 export const experienceContent = {
   techm: [
     "Lead the design, development, and maintenance of scalable web applications.",
@@ -20,20 +90,20 @@ export const experienceContent = {
   photon: [
     "Developed reusable React components for interactive and dynamic frontends, adhering to best practices.",
     "Worked closely with cross-functional teams to ensure seamless integration of front-end components with backend APIs.",
-    "Conducted code reviews, provided technical design input, and trained junior developers to maintain code quality."
+    "Conducted code reviews, provided technical design input, and trained junior developers to maintain code quality.",
   ],
   mindtree: [
     "Developed and managed automated cloud infrastructure using Terraform, Docker, and Kubernetes.",
     "Implemented cloud automation, reducing annual expenses by $1 million and ensuring compliance with FedRAMP guidelines.",
-    "Developed reusable UI components for internal project tracker applications and optimized performance."
+    "Developed reusable UI components for internal project tracker applications and optimized performance.",
   ],
   dxc: [
     "Developed an AWS serverless web application, providing real-time cloud usage insights.",
-    "Automated cloud cost optimization processes, reducing resource utilization by 10%."
+    "Automated cloud cost optimization processes, reducing resource utilization by 10%.",
   ],
   movate: [
     "Developed a web application integrating CI/CD tools with cloud services.",
-    "Designed an e-learning portal, increasing user engagement by 75% through an optimized UI/UX approach."
+    "Designed an e-learning portal, increasing user engagement by 75% through an optimized UI/UX approach.",
   ],
 };
 
@@ -41,8 +111,32 @@ export const skillBadgeList = {
   techMItems: ["Team Lead", "ReactJS", "NodeJS", "Next.JS", "AWS", "Docker", "Jest", "PostgreSQL", "Food chain"],
   photonItems: ["ReactJS", "NodeJS", "Azure Pipeline", "eComm"],
   mindtreeItems: ["Cloud Infra", "DevOps", "Cloud Automation", "ReactJS", "Python", "Terraform", "AWS", "Docker", "Kubernetes", "MySQL"],
-  dxcItems: ["DevOps", "Cloud Automation", "HTML/CSS/JS", "NodeJS", "Python", "Docker", "Kubernetes", "Jenkins", "AWS", "AWS Serverless", "RESTful APIs"],
-  movateItems: ["DevOps", "Cloud Automation", "Photoshop", "HTML/CSS/JS", "NodeJS", "AWS", "Python", "Docker", "Kuberntes", "Jenkins", "RESTful APIs"],
+  dxcItems: [
+    "DevOps",
+    "Cloud Automation",
+    "HTML/CSS/JS",
+    "NodeJS",
+    "Python",
+    "Docker",
+    "Kubernetes",
+    "Jenkins",
+    "AWS",
+    "AWS Serverless",
+    "RESTful APIs",
+  ],
+  movateItems: [
+    "DevOps",
+    "Cloud Automation",
+    "Photoshop",
+    "HTML/CSS/JS",
+    "NodeJS",
+    "AWS",
+    "Python",
+    "Docker",
+    "Kuberntes",
+    "Jenkins",
+    "RESTful APIs",
+  ],
 };
 
 export const skillSectionList = [
