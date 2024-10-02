@@ -9,7 +9,7 @@ const About = () => {
         <h2 className="font-bold text-[40px] md:text-5xl lg:text-6xl mb-4 max-w-4xl">About Me</h2>
       </div>
       <div className="h-[40rem] rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden">
-        <InfiniteMovingCards items={aboutFlashCardContent} direction="left" speed="slow" />
+        <InfiniteMovingCards items={aboutFlashCardContent} direction="right" speed="slow" />
       </div>
       <div className="flex flex-col items-center">
         <p className="text-neutral-500 dark:text-neutral-500 text-xl md:text-3xl mx-auto mb-20 z-50">
@@ -23,6 +23,10 @@ const About = () => {
           {" | "}
           <LinkPreview url="https://bharathkumarmurugan.medium.com/" className="font-bold">
             Blog
+          </LinkPreview>{" "}
+          {" | "}
+          <LinkPreview url="https://bharathkumarmurugan.medium.com/" className="font-bold">
+            My Resume
           </LinkPreview>
         </p>
       </div>

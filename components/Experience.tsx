@@ -73,7 +73,7 @@ const Experience = () => {
           <div className="mb-8">
             {experienceContent.mindtree.map((item, index) => (
               <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm" key={`mindtree-${index}`}>
-                ✅ {item}
+                ✅👉 {item}
               </div>
             ))}
           </div>
