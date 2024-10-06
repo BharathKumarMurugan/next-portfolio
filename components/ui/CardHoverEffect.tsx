@@ -16,7 +16,7 @@ export const HoverEffect = ({
   }[];
   className?: string;
 }) => {
-  let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
     <div
@@ -27,6 +27,7 @@ export const HoverEffect = ({
     >
       {items.map((item, idx) => (
         <Link
+          id={item.id}
           href={item?.link}
           key={item?.link}
           className="relative group  block p-2 h-full w-full cursor-default"
@@ -51,7 +52,7 @@ export const HoverEffect = ({
               />
             )}
           </AnimatePresence>
-          <Card id={item.id}>
+          <Card>
             <CardTitle>{item.title}</CardTitle>
             <CardDescription>{item.description}</CardDescription>
           </Card>

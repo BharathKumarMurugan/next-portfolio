@@ -1,6 +1,6 @@
 import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
-import { TextGenerateEffect } from "./ui/text-generate-effect";
+import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { IoIosSend } from "react-icons/io";
 
 const Hero = () => {
