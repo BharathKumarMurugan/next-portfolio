@@ -23,7 +23,7 @@ const Experience = () => {
           <div className="mb-8">
             {experienceContent.techm.map((item, index) => (
               <div className="text-neutral-700 dark:text-neutral-300 text-xs md:text-sm" key={`techm-${index}`}>
-                ✅ {item}
+                👉 {item}
               </div>
             ))}
           </div>
@@ -48,7 +48,7 @@ const Experience = () => {
           <div className="mb-8">
             {experienceContent.photon.map((item, index) => (
               <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm" key={`photon-${index}`}>
-                ✅ {item}
+                👉 {item}
               </div>
             ))}
           </div>
@@ -73,7 +73,7 @@ const Experience = () => {
           <div className="mb-8">
             {experienceContent.mindtree.map((item, index) => (
               <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm" key={`mindtree-${index}`}>
-                ✅👉 {item}
+                👉 {item}
               </div>
             ))}
           </div>
@@ -98,7 +98,7 @@ const Experience = () => {
           <div className="mb-8">
             {experienceContent.dxc.map((item, index) => (
               <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm" key={`dxc-${index}`}>
-                ✅ {item}
+                👉 {item}
               </div>
             ))}
           </div>
@@ -123,7 +123,7 @@ const Experience = () => {
           <div className="mb-8">
             {experienceContent.movate.map((item, index) => (
               <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-xs md:text-sm" key={`movate-${index}`}>
-                ✅ {item}
+                👉 {item}
               </div>
             ))}
           </div>

@@ -25,7 +25,7 @@ const About = () => {
             Blog
           </LinkPreview>{" "}
           {" | "}
-          <LinkPreview url="https://bharathkumarmurugan.medium.com/" className="font-bold">
+          <LinkPreview url="https://www.dropbox.com/scl/fi/pdjlklanrm2w1lessilk4/BharathKumarMurugan.pdf?rlkey=u7brjfoimedxstkig91jskq0k&st=6do2wy70&dl=0" className="font-bold">
             My Resume
           </LinkPreview>
         </p>
