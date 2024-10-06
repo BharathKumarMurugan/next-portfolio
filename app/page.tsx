@@ -1,5 +1,7 @@
 import About from "@/components/About";
+import Education from "@/components/Education";
 import Experience from "@/components/Experience";
+import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
@@ -20,7 +22,9 @@ export default function Home() {
         <About />
         <Experience />
         <Skills />
+        <Education />
         {/* https://www.youtube.com/watch?v=FTH6Dn3AyIQ&t=411s&ab_channel=JavaScriptMastery @ 38:37 */}
+        <Footer />
       </div>
     </main>
   );

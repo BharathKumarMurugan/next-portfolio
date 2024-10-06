@@ -18,8 +18,7 @@ const Skills = () => {
     {
       id: "cloud-tech",
       title: "Cloud",
-      description:
-      (
+      description: (
         <div className="flex flex-row items-center justify-center mb-10 w-full">
           <AnimatedTooltip items={skillAnimatedToolTip.cloudTech} />
         </div>
@@ -59,8 +58,7 @@ const Skills = () => {
     {
       id: "soft-skills",
       title: "Soft Skills",
-      description:
-      (
+      description: (
         <div className="flex flex-row items-center justify-center mb-10 w-full">
           <AnimatedTooltip items={skillAnimatedToolTip.softSkillTech} />
         </div>
@@ -75,7 +73,10 @@ const Skills = () => {
         <h2 className="font-bold text-[40px] md:text-5xl lg:text-6xl mb-4 max-w-4xl">My Skills</h2>
       </div>
       {/* Use either Wobble Card (or) Animated Tooltip (or) Card Stack (or) Hover Effect */}
-      <div className="max-w-5xl mx-auto px-auto">
+      <div
+        className="max-w-5xl mx-auto px-auto mb-16
+      "
+      >
         <HoverEffect items={projects} />
       </div>
     </section>
