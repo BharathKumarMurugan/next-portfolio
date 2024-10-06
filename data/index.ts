@@ -31,50 +31,6 @@ export const aboutFlashCardContent = [
   },
 ];
 
-export const testimonialsContent = [
-  {
-    id: 1,
-    name: "John Doe",
-    designation: "Software Engineer",
-    image:
-      "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
-  },
-  {
-    id: 2,
-    name: "Robert Johnson",
-    designation: "Product Manager",
-    image:
-      "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
-  },
-  {
-    id: 3,
-    name: "Jane Smith",
-    designation: "Data Scientist",
-    image:
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
-  },
-  {
-    id: 4,
-    name: "Emily Davis",
-    designation: "UX Designer",
-    image:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
-  },
-  {
-    id: 5,
-    name: "Tyler Durden",
-    designation: "Soap Developer",
-    image:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-  },
-  {
-    id: 6,
-    name: "Dora",
-    designation: "The Explorer",
-    image:
-      "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3534&q=80",
-  },
-];
 
 export const experienceContent = {
   techm: [
@@ -139,21 +95,237 @@ export const skillBadgeList = {
   ],
 };
 
-export const skillSectionList = [
-  { name: "ReactJS", icon: "" },
-  { name: "NodeJS", icon: "" },
-  { name: "NextJS", icon: "" },
-  { name: "AWS", icon: "" },
-  { name: "Docker", icon: "" },
-  { name: "Kubernetes", icon: "" },
-  { name: "HTML", icon: "" },
-  { name: "CSS", icon: "" },
-  { name: "JavaScript", icon: "" },
-  { name: "Jenkins", icon: "" },
-  { name: "GitHub", icon: "" },
-  { name: "AWS Lambda", icon: "" },
-  { name: "Tailwind", icon: "" },
-];
+export const skillAnimatedToolTip = {
+  coreTech: [
+    {
+      id: 1,
+      name: "Javascript",
+      percentage: "80%",
+      image: "/assets/javascript-logo.svg",
+    },
+    {
+      id: 2,
+      name: "Typescript",
+      percentage: "70%",
+      image: "/assets/typescript-logo.svg",
+    },
+    {
+      id: 3,
+      name: "HTML",
+      percentage: "90%",
+      image: "/assets/html-5-logo.svg",
+    },
+    {
+      id: 4,
+      name: "CSS",
+      percentage: "75%",
+      image: "/assets/css-3-logo.svg",
+    },
+    {
+      id: 5,
+      name: "NodeJS",
+      percentage: "70%",
+      image: "/assets/nodejs-logo.svg",
+    },
+    {
+      id: 6,
+      name: "Python",
+      percentage: "60%",
+      image: "/assets/python-logo.svg",
+    },
+  ],
+  cloudTech: [
+    {
+      id: 7,
+      name: "AWS",
+      percentage: "85%",
+      image: "/assets/aws-logo.svg",
+    },
+    {
+      id: 8,
+      name: "GCP",
+      percentage: "50%",
+      image: "/assets/gcp-logo.svg",
+    },
+    {
+      id: 9,
+      name: "Heroku",
+      percentage: "50%",
+      image: "/assets/heroku-logo.svg",
+    },
+    {
+      id: 10,
+      name: "Firebase",
+      percentage: "65%",
+      image: "/assets/firebase-logo.svg",
+    },
+  ],
+  devopsTech: [
+    {
+      id: 11,
+      name: "GitHub",
+      percentage: "95%",
+      image: "/assets/github-logo.svg",
+    },
+    {
+      id: 12,
+      name: "BitBucket",
+      percentage: "60%",
+      image: "/assets/bitbucket-logo.svg",
+    },
+    {
+      id: 13,
+      name: "Jenkins",
+      percentage: "80%",
+      image: "/assets/jenkins-logo.svg",
+    },
+    {
+      id: 14,
+      name: "Jira",
+      percentage: "70%",
+      image: "/assets/jira-logo.svg",
+    },
+    {
+      id: 15,
+      name: "JFrog",
+      percentage: "75%",
+      image: "/assets/jfrog-logo.svg",
+    },
+    {
+      id: 16,
+      name: "Terraform",
+      percentage: "70%",
+      image: "/assets/terraform-logo.svg",
+    },
+    {
+      id: 17,
+      name: "Docker",
+      percentage: "80%",
+      image: "/assets/docker-logo.svg",
+    },
+    {
+      id: 18,
+      name: "Kubernetes",
+      percentage: "60%",
+      image: "/assets/kubernetes-logo.svg",
+    },
+    {
+      id: 36,
+      name: "AWS Lambda",
+      percentage: "75%",
+      image: "/assets/aws-lambda-logo.svg",
+    },
+  ],
+  webDevTech: [
+    {
+      id: 19,
+      name: "React",
+      percentage: "80%",
+      image: "/assets/react-logo.svg",
+    },
+    {
+      id: 20,
+      name: "React Router",
+      percentage: "80%",
+      image: "/assets/react-router-logo.svg",
+    },
+    {
+      id: 21,
+      name: "Redux",
+      percentage: "70%",
+      image: "/assets/redux-logo.svg",
+    },
+    {
+      id: 34,
+      name: "NextJS",
+      percentage: "70%",
+      image: "/assets/nextjs-logo.svg",
+    },
+    {
+      id: 22,
+      name: "GraphQL",
+      percentage: "75%",
+      image: "/assets/graphql-logo.svg",
+    },
+    {
+      id: 23,
+      name: "Jest",
+      percentage: "70%",
+      image: "/assets/jest-logo.svg",
+    },
+    {
+      id: 24,
+      name: "Cucumber",
+      percentage: "75%",
+      image: "/assets/cucumber-logo.svg",
+    },
+    {
+      id: 35,
+      name: "Tailwind CSS",
+      percentage: "50%",
+      image: "/assets/tailwind-logo.svg",
+    },
+  ],
+  dbTech: [
+    {
+      id: 25,
+      name: "MySQL",
+      percentage: "70%",
+      image: "/assets/mysql-logo.svg",
+    },
+    {
+      id: 26,
+      name: "PostgreSQL",
+      percentage: "70%",
+      image: "/assets/postgresql-logo.svg",
+    },
+    {
+      id: 27,
+      name: "MongoDB",
+      percentage: "65%",
+      image: "/assets/mongodb-logo.svg",
+    },
+    {
+      id: 28,
+      name: "Vercel",
+      percentage: "60%",
+      image: "/assets/vercel-logo.svg",
+    },
+  ],
+  softSkillTech: [
+    {
+      id: 29,
+      name: "Team Management",
+      percentage: "70%",
+      image: "/assets/team-mgmt-logo.svg",
+    },
+    {
+      id: 30,
+      name: "Analytical Thinking",
+      percentage: "80%",
+      image: "/assets/analytical-logo.svg",
+    },
+    {
+      id: 31,
+      name: "Training & Guiding",
+      percentage: "80%",
+      image: "/assets/training-logo.svg",
+    },
+    {
+      id: 32,
+      name: "Problem Solving",
+      percentage: "80%",
+      image: "/assets/problem-solving-logo.svg",
+    },
+    {
+      id: 33,
+      name: "Fast learning",
+      percentage: "85%",
+      image: "/assets/learning-logo.svg",
+    },
+  ],
+};
+
 
 export const gridItems = [
   {
