@@ -9,7 +9,7 @@ const Experience = () => {
       title: "Mar 2023 - Present",
       content: (
         <div>
-          <p className="uppercase text-neutral-800 dark:text-neutral-200 text-3xl md:text-sm font-bold mb-8">Tech Mahindra</p>
+          <p className="uppercase text-neutral-800 dark:text-neutral-200 text-xl md:text-sm font-bold mb-8">Tech Mahindra</p>
           <div className="mb-5">
             {skillBadgeList.techMItems.map((item) => (
               <span
@@ -22,7 +22,7 @@ const Experience = () => {
           </div>
           <div className="mb-8">
             {experienceContent.techm.map((item, index) => (
-              <div className="text-neutral-700 dark:text-neutral-300 text-xs md:text-sm" key={`techm-${index}`}>
+              <div className="text-neutral-700 dark:text-neutral-300 text-sm md:text-sm" key={`techm-${index}`}>
                 👉 {item}
               </div>
             ))}
@@ -34,7 +34,7 @@ const Experience = () => {
       title: "Dec 2021 - Mar 2023",
       content: (
         <div>
-          <p className="uppercase text-neutral-800 dark:text-neutral-200 text-3xl md:text-sm font-bold mb-8">Photon Interactive</p>
+          <p className="uppercase text-neutral-800 dark:text-neutral-200 text-xl md:text-sm font-bold mb-8">Photon Interactive</p>
           <div className="mb-5">
             {skillBadgeList.photonItems.map((item) => (
               <span
@@ -59,7 +59,7 @@ const Experience = () => {
       title: "May 2020 - Nov 2021",
       content: (
         <div>
-          <p className="uppercase text-neutral-800 dark:text-neutral-200 text-3xl md:text-sm font-bold mb-8">Mindtree</p>
+          <p className="uppercase text-neutral-800 dark:text-neutral-200 text-xl md:text-sm font-bold mb-8">Mindtree</p>
           <div className="mb-5">
             {skillBadgeList.mindtreeItems.map((item) => (
               <span
@@ -84,7 +84,7 @@ const Experience = () => {
       title: "Apr 2019 - May 2020",
       content: (
         <div>
-          <p className="uppercase text-neutral-800 dark:text-neutral-200 text-3xl md:text-sm font-bold mb-8">DXC Technologies</p>
+          <p className="uppercase text-neutral-800 dark:text-neutral-200 text-xl md:text-sm font-bold mb-8">DXC Technologies</p>
           <div className="mb-5">
             {skillBadgeList.dxcItems.map((item) => (
               <span
@@ -109,7 +109,7 @@ const Experience = () => {
       title: "Sep 2016 - Mar 2019",
       content: (
         <div>
-          <p className="uppercase text-neutral-800 dark:text-neutral-200 text-3xl md:text-sm font-bold mb-8">Movate (formerly CSS Corp)</p>
+          <p className="uppercase text-neutral-800 dark:text-neutral-200 text-xl md:text-sm font-bold mb-8">Movate (formerly CSS Corp)</p>
           <div className="mb-5">
             {skillBadgeList.movateItems.map((item) => (
               <span

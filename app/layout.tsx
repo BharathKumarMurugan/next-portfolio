@@ -18,9 +18,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <link href="/assets/favicon.ico" rel="icon" />
-      {/*<body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >*/}
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           {children}

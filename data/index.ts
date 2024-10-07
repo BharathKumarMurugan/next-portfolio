@@ -3,7 +3,7 @@ export const navItems = [
   { name: "About", link: "#about" },
   { name: "Experience", link: "#experience" },
   { name: "Skills", link: "#skills" },
-  { name: "Education", link: "#education" },
+  // { name: "Education", link: "#education" },
   { name: "Contact", link: "#contact" },
 ];
 
