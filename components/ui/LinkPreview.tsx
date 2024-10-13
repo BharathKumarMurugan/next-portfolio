@@ -15,6 +15,7 @@ type LinkPreviewProps = {
   height?: number;
   quality?: number;
   layout?: string;
+  target?: string;
 } & ({ isStatic: true; imageSrc: string } | { isStatic?: false; imageSrc?: never });
 
 export const LinkPreview = ({
@@ -115,7 +116,8 @@ export const LinkPreview = ({
                   href={url}
                   className="block p-1 bg-white border-2 border-transparent shadow rounded-xl hover:border-neutral-200 dark:hover:border-neutral-800"
                   style={{ fontSize: 0 }}
-                  target="new"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <Image
                     src={isStatic ? imageSrc : src}

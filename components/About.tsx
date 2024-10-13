@@ -1,6 +1,7 @@
 import { LinkPreview } from "./ui/LinkPreview";
 import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 import { IconCode, IconBriefcase, IconTools, IconMoonStars } from "@tabler/icons-react";
+// import Link from "next/link";
 
 const About = () => {
   const aboutBentoGridItems = [
@@ -68,10 +69,11 @@ const About = () => {
             Blog
           </LinkPreview>{" "}
           {" | "}
-          <LinkPreview
+          {/* <LinkPreview
             url="https://www.dropbox.com/scl/fi/pdjlklanrm2w1lessilk4/BharathKumarMurugan.pdf?rlkey=u7brjfoimedxstkig91jskq0k&st=6do2wy70&dl=0"
             className="font-bold"
-          >
+          > */}
+          <LinkPreview url="/assets/BharathKumarMurugan.pdf" className="font-bold" isStatic imageSrc="/assets/resume.jpg">
             My Resume
           </LinkPreview>
         </p>
