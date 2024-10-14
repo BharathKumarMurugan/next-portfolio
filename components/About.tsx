@@ -43,7 +43,7 @@ const About = () => {
       <div className="flex flex-col items-center justify-center max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
         <h2 className="font-bold text-[40px] md:text-5xl lg:text-6xl mb-4 max-w-4xl z-[300]">About Me</h2>
       </div>
-      <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[11rem] md:mb-10 mb-10">
+      <BentoGrid className="max-w-4xl mx-auto md:auto-rows-[12rem] md:mb-10 mb-10">
         {aboutBentoGridItems.map((item, i) => (
           <BentoGridItem
             key={i}
