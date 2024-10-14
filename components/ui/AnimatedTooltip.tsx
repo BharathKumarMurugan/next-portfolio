@@ -59,7 +59,7 @@ export const AnimatedTooltip = ({
                 <div className="absolute inset-x-10 z-30 w-[20%] -bottom-px bg-gradient-to-r from-transparent via-emerald-500 to-transparent h-px " />
                 <div className="absolute left-10 w-[40%] z-30 -bottom-px bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px " />
                 <div className="font-bold text-white relative z-30 text-xs">{item.name}</div>
-                <div className="text-white text-xss">{item.percentage}</div>
+                {/* <div className="text-white text-xss">{item.percentage}</div> */}
               </motion.div>
             )}
           </AnimatePresence>
