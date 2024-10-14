@@ -23,7 +23,7 @@ const About = () => {
     {
       title: "What are my specializations?",
       description:
-        "Expertised in ReactJS and Node.js with strong experience in RESTful APIs. Skilled in few DevOps tools. Leading a team and mentoring laterals.",
+        "Expert in ReactJS, Node.js, and RESTful APIs, with DevOps skills. Experienced team leader and mentor.",
       // header: <Skeleton />,
       className: "md:col-span-1",
       icon: <IconTools className="h-6 w-6 text-blue-500" />,
