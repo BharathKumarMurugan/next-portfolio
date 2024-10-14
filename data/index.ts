@@ -21,7 +21,7 @@ export const aboutFlashCardContent = [
   },
   {
     quote:
-      "Expertised in ReactJS and Node.js with strong experience in RESTful APIs. Skilled in few DevOps tools. Leading a team and mentoring laterals.",
+      "Expert in ReactJS, Node.js, and RESTful APIs, with DevOps skills. Experienced team leader and mentor.",
     name: "",
     title: "What are my specializations?",
   },
